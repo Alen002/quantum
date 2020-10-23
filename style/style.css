@@ -1,3 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.call-to-action {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 187px;
+  height: 39px;
+}
+
+
+
 .height {    
   min-height: 100vh;   
 }
@@ -21,4 +35,12 @@
     top: 0;
     left: 0;
     min-height: 500px;
+}
+
+#layer {
+  position: fixed;
+  top: 0px;
+  background-color:rgba(0,0,0,0);
+  width: 100%;
+  z-index:5;
 }
