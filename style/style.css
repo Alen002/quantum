@@ -1,0 +1,24 @@
+.height {    
+  min-height: 100vh;   
+}
+
+.height-50 {
+  min-height: 50vh;
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}

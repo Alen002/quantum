@@ -1,30 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Qunantum</title>
+  </head>
   
-  <section id="header">
-    <div class="container-fluid">
+  <body>  <!-- start of header-->
 
-      <div class="row">
-        <div class="col-md-4 bg-primary">
-          Quantum
-        </div>
-        <div class="col-md-8 bg-warning">
-          second column
+    <section id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 bg-alert">
+            <a href="#">QUANTUM</a>
+          </div>
+          <div class="col-sm-12 col-md-4 bg-warning">
+            second column
+          </div>
         </div>
       </div>
+    </section>
+    <!-- end of header -->
 
+    <!-- start of carousel -->
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <div id="example"class="carousel slide" data-ride="carousel">
+          <!-- start of indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#example" data-slide-to="0" class="active"></li>
+            <li data-target="#example" data-slide-to="1"></li>
+            <li data-target="#example" data-slide-to="2"></li>
+            <li data-target="#example" data-slide-to="3"></li>
+          </ul>
+          <!-- end of indicators -->
+          <!-- start of images -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/carousel_1.jpg" alt="project" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="img/carousel_2.jpg" alt="project" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="img/project_3.jpg" alt="project" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="img/project_4.jpg" alt="project" class="d-block w-100">
+            </div>
+          </div>
+          <!-- end of images -->
+          <!-- start of controls -->
+          <a href="#example" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a href="#example" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+          <!-- end of controls -->
+        </div>
+      </div>
     </div>
-  </section>
+    <!-- end of carousel -->
 
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-</body>
+    <script src="./script/jquery-3.5.1.min.js"></script>
+    <script src="./script/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
