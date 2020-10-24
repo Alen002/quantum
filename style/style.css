@@ -8,7 +8,24 @@ body {
   border: none;
   width: 187px;
   height: 39px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+.call-to-action span {
+  text-decoration: none;
+    border-bottom: 1px solid black;   
+    -webkit-transition: 0.9s ease;
+            transition: 0.9s ease;
+}
+
+.call-to-action span:hover {
+  -webkit-transition: 0.9s ease;
+          transition: 0.9s ease;
+  border-bottom: 3px solid white;
+}
+
+
 
 
 
