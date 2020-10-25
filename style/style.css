@@ -22,6 +22,10 @@ body {
   text-align: center;
   margin: auto;
 }
+
+#icons a {
+  color: black;
+}
 /* end of icons */
 
 /* start of click here button */
@@ -63,6 +67,12 @@ body {
 }
 /* end of carousel */
 
+.img-wrapper {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
 #layer {
   position: fixed;
   top: 0px;
@@ -70,3 +80,8 @@ body {
   width: 100%;
   z-index:5;
 }
+
+a {
+  font-size: 19px;
+}
+
