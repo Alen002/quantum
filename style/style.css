@@ -1,7 +1,30 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: white;
+  /*  #121112 */
 }
 
+.height {    
+  min-height: 100vh;   
+}
+
+.height-50 {
+  min-height: 50vh;
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+/* start of icons */
+#icons {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+/* end of icons */
+
+/* start of click here button */
 .call-to-action {
   background-color: black;
   color: white;
@@ -24,26 +47,11 @@ body {
           transition: 0.9s ease;
   border-bottom: 3px solid white;
 }
+/* end of click here button */
 
-
-
-
-
-.height {    
-  min-height: 100vh;   
-}
-
-.height-50 {
-  min-height: 50vh;
-}
-
-.height-80 {
-  min-height: 80vh;
-}
-
-
+/* start of carousel */
 .carousel .carousel-item {
-  height: 500px;
+  height: 550px;
 }
 
 .carousel-item img {
@@ -53,6 +61,7 @@ body {
     left: 0;
     min-height: 500px;
 }
+/* end of carousel */
 
 #layer {
   position: fixed;
