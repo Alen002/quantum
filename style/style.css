@@ -67,11 +67,24 @@ body {
 }
 /* end of carousel */
 
+/* start of cards */
 .img-wrapper {
   width: auto;
   height: 300px;
   object-fit: cover;
 }
+/* end of cards */
+
+/* start of primary-2 */
+.about-picture {
+  background: url(../img/primary_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+/* end of primary-2 */
+
 
 #layer {
   position: fixed;
