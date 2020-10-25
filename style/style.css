@@ -8,12 +8,8 @@ body {
   min-height: 100vh;   
 }
 
-.height-50 {
-  min-height: 50vh;
-}
-
-.height-80 {
-  min-height: 80vh;
+.height-60 {
+  min-height: 60vh;
 }
 
 /* start of icons */
@@ -75,15 +71,21 @@ body {
 }
 /* end of cards */
 
-/* start of primary-2 */
-.about-picture {
-  background: url(../img/primary_2.jpg);
+.about-picture {  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
 }
-/* end of primary-2 */
+
+.image-1 {
+  background: url(../img/primary_2.jpg);
+}
+
+.image-2 {
+  background: url(../img/primary_3.jpg);
+}
+
 
 
 #layer {
