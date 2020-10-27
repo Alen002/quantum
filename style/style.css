@@ -86,8 +86,6 @@ body {
   background: url(../img/primary_3.jpg);
 }
 
-
-
 #layer {
   position: fixed;
   top: 0px;
@@ -100,3 +98,10 @@ a {
   font-size: 19px;
 }
 
+.footer-spacing {
+  font-size: 1.4rem;
+}
+
+.footer-size {
+  font-size: 0.9rem;
+}
