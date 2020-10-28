@@ -86,14 +86,6 @@ body {
   background: url(../img/primary_3.jpg);
 }
 
-#layer {
-  position: fixed;
-  top: 0px;
-  background-color:rgba(0,0,0,0);
-  width: 100%;
-  z-index:5;
-}
-
 a {
   font-size: 19px;
 }
@@ -110,6 +102,8 @@ a {
 
 
 @media (max-width: 575px) {
-  
+  .hide {
+    display: none;
+  }
   
 }
