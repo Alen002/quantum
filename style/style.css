@@ -108,13 +108,8 @@ a {
 }
 /* end of footer section */
 
-#footer {
-  margin-left: 20px;
-}
 
 @media (max-width: 575px) {
-  body {
-    background-color: black;
-  }
-
+  
+  
 }
