@@ -107,3 +107,8 @@ a {
   }
   
 }
+
+.carousel-caption {
+  top: 58%;
+  transform: translateY(-50%);
+}
