@@ -4,8 +4,8 @@ body {
   /*  #121112 */
 }
 
-.height {    
-  min-height: 100vh;   
+.height {
+  min-height: 100vh;
 }
 
 .height-60 {
@@ -22,8 +22,8 @@ body {
 #icons a {
   color: black;
 }
-/* end of icons */
 
+/* end of icons */
 /* start of click here button */
 .call-to-action {
   background-color: black;
@@ -35,43 +35,45 @@ body {
   padding-bottom: 5px;
 }
 
-.call-to-action span {
+.call-to-action span span {
   text-decoration: none;
-    border-bottom: 1px solid black;   
-    -webkit-transition: 0.9s ease;
-            transition: 0.9s ease;
+  border-bottom: 1px solid black;
+  -webkit-transition: 0.9s ease;
+  transition: 0.9s ease;
 }
 
 .call-to-action span:hover {
   -webkit-transition: 0.9s ease;
-          transition: 0.9s ease;
+  transition: 0.9s ease;
   border-bottom: 3px solid white;
 }
-/* end of click here button */
 
+/* end of click here button */
 /* start of carousel */
 .carousel .carousel-item {
   height: 550px;
 }
 
 .carousel-item img {
-    position: absolute;
-    object-fit:cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
 }
-/* end of carousel */
 
+/* end of carousel */
 /* start of cards */
 .img-wrapper {
   width: auto;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-/* end of cards */
 
-.about-picture {  
+/* end of cards */
+.about-picture {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,17 +100,17 @@ a {
 .footer-size {
   font-size: 0.9rem;
 }
+
 /* end of footer section */
-
-
 @media (max-width: 575px) {
   .hide {
     display: none;
   }
-  
 }
 
 .carousel-caption {
   top: 58%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
+/*# sourceMappingURL=main.css.map */
